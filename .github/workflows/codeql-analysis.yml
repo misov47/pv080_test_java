@@ -56,7 +56,7 @@ jobs:
     - if: matrix.language == 'java'
       name: build java
       run: |
-		javac buggyj.java
+	  	javac buggyj.java
 
 
     # ℹ️ Command-line programs to run using the OS shell.
